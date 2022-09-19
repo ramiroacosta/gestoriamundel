@@ -1,0 +1,101 @@
+/* estilos header nav */
+
+.estilosHeader {
+    background-color: #111827;
+}
+/* estilos main */
+.row {
+    padding-left: 40px;
+}
+.estilosMain1 {
+    height: 43rem;
+    background-color: #111827;
+}
+.estilosColm1 {
+    color: white;
+    height: 40rem;
+}
+.estilosColm1 h1 {
+    margin-bottom: 30px;
+}
+.estilosColm1 h4 {
+    margin-bottom: 30px;
+    line-height: 2.5rem;
+}
+.estilosColm1 h4 img {
+    margin-left: 20px;
+}
+.botonMain {
+    margin-bottom: 30px;
+}
+.estilosColm1 h5 {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.estilosCol2 {
+    height: 38rem;
+}
+.estilosCol2 video{
+    height: fit-content;
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+/* tramites */
+
+.estilosTramites {
+    height: fit-content;
+}
+.estilosTramitescol {
+    height: 34rem;
+}
+.estilosTramitescol video {
+    height: 400px;
+    width: fit-content;
+    border-radius: 20px;
+    /* object-fit: cover; */
+}
+.estilosSpan {
+    color: white;
+    background-color: #111827;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+}
+/* estilos nosotros */
+.estilosNos {
+    height: fit-content;
+}
+.estilosParr {
+    padding: 10px 10px 10px 10px;
+    width: fit-content;
+    background-color: #eacdcd;
+    line-height: 2rem;
+}
+.estilosNoscol {
+    height: 34rem;
+}
+.estilosNoscol h4 {
+    color: white;
+    background-color: #111827;
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+}
+.estilosNoscol2 {
+    height: 34rem;
+}
+/* estiilos footer */
+.estilosFooter {
+    height: fit-content;
+    background-color: #111827;
+    color: white;
+}
+.estilosFooter1 {
+    height: fit-content;
+}
+.colFooter {
+    height: 15rem;
+}
+.text-center h6 {
+    padding-bottom: 15px;
+}
