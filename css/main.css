@@ -121,3 +121,40 @@
     color: white;
     height: 4rem;
 }
+
+/* estilos nosotros html */
+.estilosH1 {
+    margin-top: 20px;
+}
+.estilosH1 span {
+    background-color: #111827;
+    color: white;
+    font-size:large;
+    padding:  5px 5px 5px 5px;
+    border-radius: 15px;
+}
+.estilosColimg {
+    height: 40rem;
+}
+.estilosColimg img {
+    height: 250px;
+    width: 350px;
+}
+.estilosColparr {
+    height: 40rem;
+    font-weight: 500;
+}
+.padingRownos {
+    padding: 0;
+    height: fit-content;
+}
+.colorCon {
+    background-color: #111827;
+    color: white;
+}
+.padingRownos2 {
+    padding: 5rem 5rem 5rem 5rem;
+}
+.estilosMaps {
+    height: 28rem;
+}
