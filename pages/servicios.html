@@ -11,21 +11,36 @@
     <title>Gestoria || Servicios</title>
 </head>
 <body>
-    <header class="estilosHeader d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-2 border-bottom">
-        <div href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+  <header class="estilosHeader">
+    <nav class="navbar navbar-expand-lg d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-2">
+        <div class="container-fluid">
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+            <img src="../img/logo.png" alt="" width="100" height="100" class="d-flex align-items-center">
+          </div>
+          <div class="collapse navbar-collapse flex-wrap align-items-center justify-content-center   py-3 px-2" id="navbarNav">
+            <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+            <div class="col-md-1 text-end">
+              <a href="#contacto">
+                <button type="button" class="btn btn-light">Contacto</button>
+              </a>  
+            </div>
+          </div>
         </div>
-        
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-light">Inicio</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Servicios</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Sobre nosotros</a></li>
-        </ul>
-  
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-light">Contacto</button>
-        </div>
-    </header>
+    </nav>
+</header>
     <main>
         <div class="container-fluid estilosMainSer">
             <img class="imagenSer" src="../img/firmar.jpg" alt="">
@@ -38,7 +53,7 @@
                 </h1>
             </div>
             <div class="row padingRow d-flex row-cols-1 row-cols-md-2 justify-content-evenly">
-                <div class="col d-flex flex-column justify-content-center">
+                <div class="col estilosSize d-flex flex-column justify-content-center">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">Verificación Policial/Fisica</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample1">
                     <div class="card card-body">
@@ -48,7 +63,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Denuncia de Robo-Hurto</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample2">
                     <div class="card card-body">
@@ -58,7 +73,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Cedula de Posesión ( o Provisoria )</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample3">
                     <div class="card card-body">
@@ -76,7 +91,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Cambio de radicación; disposiciónes comunes</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample4">
                     <div class="card card-body">
@@ -86,7 +101,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample5" aria-expanded="false" aria-controls="multiCollapseExample5">Baja del Automotor o Motovehiculo</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample5">
                     <div class="card card-body">
@@ -94,7 +109,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample6" aria-expanded="false" aria-controls="multiCollapseExample6">Bajas Impositivas por cambio de radicación</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample6">
                     <div class="card card-body">
@@ -105,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample7" aria-expanded="false" aria-controls="multiCollapseExample7">08 vencido genera moras</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample7">
                     <div class="card card-body">
@@ -114,7 +129,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col d-flex flex-column justify-content-center ">
+                <div class="col estilosSize d-flex flex-column justify-content-center ">
                     <button class="btn btnEstilo" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample8" aria-expanded="false" aria-controls="multiCollapseExample8">Otros</button>
                   <div class="collapse multi-collapse" id="multiCollapseExample8">
                     <div class="card card-body">
@@ -129,29 +144,37 @@
             </div
         </div>
     </main>
-    <footer class="estilosFooter">
-        <div class="container-fluid estilosFooter1">
-            <div class="row wow-cols-md-4">
-                <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
-                    <img src="../img/whatsapp.png" alt="">
-                </div>
-                <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
-                    <img src="../img/facebook.png" alt="">
-                </div>
-                <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
-                    <img src="../img/logotipo-de-instagram.png" alt="">
-                </div>
-                <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
-                    <img src="../img/gmail.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid text-center">
-            <h6>
-                © 2022 Todos los derechos reservados || Desarrolado por Ramiro Acosta Lopez
-            </h6>
-        </div>
-    </footer>
+  <footer class="estilosFooter" id="contacto">
+      <div class="container-fluid estilosFooter1">
+          <div class="row wow-cols-md-4">
+              <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                 <a href="https://wa.me/+541132847639">
+                  <img src="../img/whatsapp.png" alt="">
+                 </a> 
+              </div>
+              <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                 <a href="https://www.facebook.com/people/Gestor%C3%ADa-del-Automotor-Mundel/100076043284679/">
+                  <img src="../img/facebook.png" alt="">
+                 </a> 
+              </div>
+              <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                <a href="https://www.instagram.com/gestoria_mundel/">
+                  <img src="../img/logotipo-de-instagram.png" alt="">
+                </a>  
+              </div>
+              <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                 <a href="mailto:gestoriamundel.dnrpa@gmail.com">
+                  <img src="../img/gmail.png" alt="">
+                 </a> 
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid text-center">
+          <h6>
+              © 2022 Todos los derechos reservados || Desarrolado por Ramiro Acosta Lopez
+          </h6>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

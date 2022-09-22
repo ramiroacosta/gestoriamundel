@@ -1,7 +1,10 @@
 /* estilos header nav */
 
 .estilosHeader {
-    background-color: #111827;
+    background-color: #111827 !important;
+}
+.nav-link {
+    color: white;
 }
 /* estilos main */
 .row {
@@ -54,13 +57,18 @@
     height: 400px;
     width: fit-content;
     border-radius: 20px;
-    /* object-fit: cover; */
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 .estilosSpan {
     color: white;
     background-color: #111827;
     padding: 3px 10px 3px 10px;
     border-radius: 15px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 /* estilos nosotros */
 .estilosNos {
@@ -80,9 +88,18 @@
     background-color: #111827;
     padding: 3px 10px 3px 10px;
     border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 .estilosNoscol2 {
     height: 34rem;
+}
+.estilosNoscol2 img {
+    box-shadow: 75px -58px 0px 3px rgba(0,0,0,1);
+    -webkit-box-shadow: 75px -58px 0px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 75px -58px 0px 3px rgba(0,0,0,1);
 }
 /* estiilos footer */
 .estilosFooter {
@@ -105,21 +122,31 @@
 .estilosMainSer {
     height: 20rem;
     padding: 0;
+    position: relative;
+}
+.estilosMainSer h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
 }
 .imagenSer {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    position: relative;
 }
 
 .padingRow {
     padding: 0;
-    height: 30rem;
+    height: fit-content;
 }
 .btnEstilo {
     background-color: #111827;
     color: white;
     height: 4rem;
+}
+.estilosSize {
+    margin-bottom: 30px;
 }
 
 /* estilos nosotros html */
@@ -157,4 +184,38 @@
 }
 .estilosMaps {
     height: 28rem;
+}
+
+@media screen and (max-width: 700px){
+    .estilosMain1 {
+        height: fit-content;
+    }
+    .row {
+        padding: 0;
+    }
+    .estilosCol2 {
+        height: fit-content;
+        padding: 0;
+    }
+    .estilosCol2 video {
+        width: 300px;
+        
+    }
+    .estilosNoscol2 img {
+        width: 280px;
+        height: 190px;
+    }
+    .estilosMandatarios {
+        font-size: medium;
+    }
+    .estilosMandatarios img {
+        height: 16px;
+        width: 16px;
+    }
+    .estilosNoscol2 {
+        height: 25rem;
+    }
+    .padingRow {
+        height: fit-content;
+    }
 }

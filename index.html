@@ -6,63 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- boots -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- css -->
     <link rel="stylesheet" href="css/main.css">
     <title>Gestoria || Inicio</title>
 </head>
 <body>
-    <header class="estilosHeader d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-2 border-bottom">
-        <div href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-        </div>
-        
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-light">Inicio</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Servicios</a></li>
-          <li><a href="#" class="nav-link px-2 link-light">Sobre nosotros</a></li>
-        </ul>
-  
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-light">Contacto</button>
-        </div>
+    <header class="estilosHeader">
+        <nav class="navbar navbar-expand-lg d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-2">
+            <div class="container-fluid">
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div>
+                <img src="img/logo.png" alt="" width="100" height="100" class="d-flex align-items-center">
+              </div>
+              <div class="collapse navbar-collapse flex-wrap align-items-center justify-content-center   py-3 px-2" id="navbarNav">
+                <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                  </li>
+                </ul>
+                <div class="col-md-1 text-end">
+                  <a href="#contacto">
+                    <button type="button" class="btn btn-light">Contacto</button>
+                  </a>  
+                </div>
+              </div>
+            </div>
+        </nav>
     </header>
     <main class="d-flex flex-column align-items-center justify-content-center">
         <div class="estilosMain1 container-fluid">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="estilosColm1 col d-flex flex-column justify-content-center">
-                    <h1>
+                    <h1 class="animate__animated animate__backInUp">
                         Gestoria Mundel
                     </h1>
                     <h5>
-                        <p>
+                        <p class="animate__animated animate__backInUp">
                             Somos un equipo de trabajo que nos dedicamos a los tramites del automotor,
                             consulte a un mandatario matriculado, su ideoneidad le dara seguridad y confianza que ud. necesita para no correr riesgos innecesarios. Circule tranquilo!    
                         </p>
                        </h5>
-                    <div class="botonMain">
+                    <div class="botonMain animate__animated animate__backInUp">
+                      <a href="#contacto">
                         <button type="button" class="btn btn-light">Contacto</button>
+                      </a>  
                     </div>
                     <h4>
-                        <p>
+                        <p class="estilosMandatarios animate__animated animate__backInUp">
                             MANDATARIOS
-                            <br>GABRIELA MUNDEL ,  MANDATARIA NACIONAL <a href=""> <img src="img/llamada-telefonica.png" alt=""></a>
-                            <br>VANESA MUNDEL, MANDATARIA NACIONAL <a href=""><img src="img/llamada-telefonica.png" alt=""></a>
-                            <br>LUCIANO GONZALEZ, MANDATARIO NACIONAL <a href=""><img src="img/llamada-telefonica.png" alt=""></a>
+                            <br>Gabriela Mundel ,  MANDATARIA NACIONAL <a href="https://wa.me/+541132847639"> <img src="img/llamada-telefonica.png" alt="" class=" animate__animated animate__swing animate__repeat-3"></a>
+                            <br>Vanesa Mundel, MANDATARIA NACIONAL <a href="https://wa.me/+541164284519"><img src="img/llamada-telefonica.png" alt="" class=" animate__animated animate__swing animate__repeat-3"></a>
+                            <br>Luciano Gonzalez, MANDATARIO NACIONAL <a href="https://wa.me/+541132901405"><img src="img/llamada-telefonica.png" alt="" class=" animate__animated animate__swing animate__repeat-3"></a>
+                            <br>Nestor Torres, MANDATARIO NACIONAL <a href="https://wa.me/+541127127395"><img src="img/llamada-telefonica.png" alt="" class=" animate__animated animate__swing animate__repeat-3"></a>
+                            <br>Fabricio Miozzi, PRODUCTOR DE SEGUROS <a href="https://wa.me/+541129229660"><img src="img/llamada-telefonica.png" alt="" class=" animate__animated animate__swing animate__repeat-3"></a>
                         </p>
                     </h4>
                 </div>
-                <div class="estilosCol2 col d-flex flex-column justify-content-center align-items-center">
-                    
+                <div class="estilosCol2 col d-flex flex-column justify-content-center align-items-center animate__animated animate__backInUp">
                     <video src="img/WhatsApp Video 2022-09-19 at 1.10.36 PM.mp4" autoplay muted loop></video>
                 </div>
             </div>
+            <div class=" text-center">
+               <a href="#tramites">
+                <img src="img/angle-small-down-free-icon-font.png" alt="">
+               </a> 
+            </div>
         </div>
         <div class="estilosTramites container-fluid">
-            <div class="row row-cols-1 row-cols-md-2">
+            <div class="row row-cols-1 row-cols-md-2" id="tramites">
                 <div class="col estilosTramitescol d-flex flex-column justify-content-center align-items-center">
                     <video src="img/videoges1 (online-video-cutter.com).mp4" autoplay muted loop></video>
                 </div>
-                <div class="col d-flex flex-column justify-content-center">
+                <div class="col d-flex flex-column justify-content-center" >
                         <p>
                             <h4>
                                 <span class="estilosSpan">
@@ -111,20 +135,28 @@
         </div>
     </main>
 
-    <footer class="estilosFooter">
+    <footer class="estilosFooter" id="contacto">
         <div class="container-fluid estilosFooter1">
             <div class="row wow-cols-md-4">
                 <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                   <a href="https://wa.me/+541132847639">
                     <img src="img/whatsapp.png" alt="">
+                   </a> 
                 </div>
                 <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                   <a href="https://www.facebook.com/people/Gestor%C3%ADa-del-Automotor-Mundel/100076043284679/">
                     <img src="img/facebook.png" alt="">
+                   </a> 
                 </div>
                 <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                  <a href="https://www.instagram.com/gestoria_mundel/">
                     <img src="img/logotipo-de-instagram.png" alt="">
+                  </a>  
                 </div>
                 <div class="col colFooter d-flex flex-column justify-content-center align-items-center">
+                   <a href="mailto:gestoriamundel.dnrpa@gmail.com">
                     <img src="img/gmail.png" alt="">
+                   </a> 
                 </div>
             </div>
         </div>
@@ -134,11 +166,6 @@
             </h6>
         </div>
     </footer>
-
-
-
-
-
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
