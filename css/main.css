@@ -5,6 +5,11 @@
 }
 .nav-link {
     color: white;
+    transition: 0.15s;
+}
+.nav-link:hover {
+    color: white;
+    border-bottom: white solid;
 }
 /* estilos main */
 .row {
@@ -101,6 +106,7 @@
     -webkit-box-shadow: 75px -58px 0px 3px rgba(0,0,0,1);
     -moz-box-shadow: 75px -58px 0px 3px rgba(0,0,0,1);
 }
+
 /* estiilos footer */
 .estilosFooter {
     height: fit-content;
@@ -144,9 +150,16 @@
     background-color: #111827;
     color: white;
     height: 4rem;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 .estilosSize {
     margin-bottom: 30px;
+}
+.card-body {
+    background-color: #111827;
+    color: white;
 }
 
 /* estilos nosotros html */
@@ -157,8 +170,11 @@
     background-color: #111827;
     color: white;
     font-size:large;
-    padding:  5px 5px 5px 5px;
+    padding:  5px 20px 5px 20px;
     border-radius: 15px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 .estilosColimg {
     height: 40rem;
@@ -166,10 +182,18 @@
 .estilosColimg img {
     height: 250px;
     width: 350px;
+    border-radius: 20px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 .estilosColparr {
     height: 40rem;
     font-weight: 500;
+}
+.estilosColparr p {
+    background-color: #eacdcd;
+    padding: 5px  5px  5px  5px;
 }
 .padingRownos {
     padding: 0;
@@ -184,6 +208,22 @@
 }
 .estilosMaps {
     height: 28rem;
+    padding: 0;
+}
+.estilosH2 {
+    background-color: #111827;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+}
+.estilosMapa {
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
 }
 
 @media screen and (max-width: 700px){
@@ -218,4 +258,14 @@
     .padingRow {
         height: fit-content;
     }
+    .estilosColimg {
+        height: 20rem;
+    }
+    .estilosColparr {
+        height: 20rem;
+    }
+    .estilosMapa {
+        width: 300px;
+        height: 300px;
+    } 
 }
