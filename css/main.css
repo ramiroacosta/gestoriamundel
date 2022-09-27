@@ -161,7 +161,34 @@
     background-color: #111827;
     color: white;
 }
-
+.estilosSeguroscol1 {
+    height: 38rem;
+}
+.estilosSeguroscol1 img {
+    height: 330px;
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+}
+.estilosSegurosrow {
+    padding: 0;
+    height: fit-content;
+}
+.estilosMargin h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.botonMainseguros {
+    margin-bottom: 20px;
+}
+.btn-dark {
+    background-color: #111827;
+    box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -webkit-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -1px 10px 38px -6px rgba(0,0,0,0.63);
+}
 /* estilos nosotros html */
 .estilosH1 {
     margin-top: 20px;
@@ -232,6 +259,10 @@
     }
     .row {
         padding: 0;
+        margin-top: 20px;
+    }
+    .padingRownos2 {
+        padding: 10px;
     }
     .estilosCol2 {
         height: fit-content;
@@ -263,9 +294,20 @@
     }
     .estilosColparr {
         height: 20rem;
+        
+    }
+    .estilosColparr p {
+        padding: 10px;
     }
     .estilosMapa {
         width: 300px;
         height: 300px;
+    }
+    .estilosSeguroscol1 img {
+        height: 230px;
+        width: 310px;
     } 
+    .estilosSeguroscol1 {
+        height: 20rem;
+    }
 }
