@@ -36,6 +36,10 @@
 .botonMain {
     margin-bottom: 30px;
 }
+.ubi {
+    color: white;
+    text-decoration: none;
+}
 .estilosColm1 h5 {
     color: gray;
     font-size: 1rem;
